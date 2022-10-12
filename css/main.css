@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+main {
+  display: flex;
+  font-family: Avenir Next;
+  color: #efefef;
+  font-size: 0.9375rem;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#viewDiv{
+  width: 100%;
+}
+
+#sideBar {
+  width: 300px;
+  background-color: grey;
+}
